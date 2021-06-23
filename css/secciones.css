@@ -61,6 +61,17 @@
     row-gap: 2%;
 }
 
+.seccionTres .texto {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center; 
+}
+
 .seccionTresUno {
     background: url(../images/interiorUno.png);
     background-position: center;
@@ -73,14 +84,6 @@
 }
 
 .seccionTresDos {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    text-align: center;
-    align-items: center;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -97,14 +100,6 @@
 }
 
 .seccionTresCuatro {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    text-align: center;
-    align-items: center;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
@@ -112,14 +107,6 @@
 }
 
 .seccionTresCinco {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    text-align: center;
-    align-items: center;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -135,14 +122,6 @@
 }
 
 .seccionTresSiete {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    text-align: center;
-    align-items: center;
     grid-column-start: 5;
     grid-column-end: end;
     grid-row-start: 2;
@@ -189,7 +168,7 @@
     row-gap: 2%;
 }
 
-.seccionCincoUno {
+.seccionCinco .texto {
     background: #595959;
     color: white;
     font-family: 'Roboto';
@@ -198,6 +177,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.seccionCincoUno {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -205,14 +187,6 @@
 }
 
 .seccionCincoDos {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -220,14 +194,6 @@
 }
 
 .seccionCincoTres {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -235,14 +201,6 @@
 }
 
 .seccionCincoCuatro {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -250,14 +208,6 @@
 }
 
 .seccionCincoCinco {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
@@ -265,14 +215,6 @@
 }
 
 .seccionCincoSeis {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -280,14 +222,6 @@
 }
 
 .seccionCincoSiete {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -295,14 +229,6 @@
 }
 
 .seccionCincoOcho {
-    background: #595959;
-    color: white;
-    font-family: 'Roboto';
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column-start: 4;
     grid-column-end: end;
     grid-row-start: 3;
