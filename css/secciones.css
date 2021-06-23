@@ -250,8 +250,22 @@
     text-align: center;
 }
 
+.seccionSeisTop {
+    height: 10vh;
+}
+
+.seccionSeisTop p {
+    z-index: 99;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Roboto';
+    color: white;
+    padding: 15px;
+}
+
 .seccionSeis {
-    height: 100vh;
+    z-index: 99;
+    height: 90vh;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -275,7 +289,7 @@
 
 .video-bg {
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     right: 0;
     top: 0;
     width: 100%;
