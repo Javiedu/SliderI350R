@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    background: #222222;
+}
+
+i {
+    color: #FFE600;
+    font-style: normal;
+}

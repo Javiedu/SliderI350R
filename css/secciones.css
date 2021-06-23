@@ -1,0 +1,361 @@
+.seccionUno h2 {
+    color: white;
+    font-size: 64px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    letter-spacing: 42px;
+    text-align: center;
+    margin-right: -42px;
+}
+
+.seccionUno h1 {
+    color: white;
+    font-size: 276px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+    margin: -55px;
+}
+
+.seccionDos img {
+    width: 50%;
+    height: 60vh;
+    margin-right: 10px;
+    object-fit: none;
+}
+
+.secDosTexto {
+    margin-left: 10px;
+}
+
+.seccionDos h2 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto';
+    text-align: right;
+}
+
+.seccionDos p {
+    color: white;
+    font-weight: lighter;
+    font-size: 36px;
+    font-family: 'Roboto';
+    text-align: justify;
+}
+
+.seccionDos {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.seccionTres {
+    margin: auto;
+    height: 90vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-template-rows: 31.3% 31.3% 31.3%;
+    column-gap: 2%;
+    row-gap: 2%;
+}
+
+.seccionTresUno {
+    background: url(../images/interiorUno.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.seccionTresDos {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.seccionTresTres {
+    background: url(../images/interiorDos.png);
+    background-position: center;
+    grid-column-start: 5;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.seccionTresCuatro {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: end;
+}
+
+.seccionTresCinco {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: end;
+}
+.seccionTresSeis {
+    background: url(../images/interiorTres.png);
+    background-position: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: end;
+}
+
+.seccionTresSiete {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: end;
+    grid-row-start: 2;
+    grid-row-end: end;
+}
+
+.luzUno {
+    background: url(../images/ledUno.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.luzDos {
+    background: url(../images/ledDos.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frameBajo {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.luzUno h3, .luzDos h3 {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.seccionCinco {
+    margin: auto;
+    height: 90vh;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5% ;
+    grid-template-rows: 31.3% 31.3% 31.3%;
+    column-gap: 2%;
+    row-gap: 2%;
+}
+
+.seccionCincoUno {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.seccionCincoDos {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.seccionCincoTres {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.seccionCincoCuatro {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.seccionCincoCinco {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: end;
+}
+
+.seccionCincoSeis {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: end;
+}
+
+.seccionCincoSiete {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: end;
+}
+
+.seccionCincoOcho {
+    background: #595959;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 4;
+    grid-column-end: end;
+    grid-row-start: 3;
+    grid-row-end: end;
+}
+
+.seccionCincoNueve {
+    background: url(../images/caracteristicas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 3;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.seccionCinco p {
+    text-align: center;
+}
+
+.seccionSeis {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.seccionSeis a {
+    z-index: 99;
+    color: white;
+    text-decoration: none;
+    border: #FFE600 3px solid;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 15px;
+}
+
+.seccionSeis a:hover {
+    background: #595959;
+    transition-duration: 1s;
+}
+
+.video-bg {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
